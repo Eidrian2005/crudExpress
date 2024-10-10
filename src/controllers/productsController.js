@@ -1,4 +1,5 @@
-const fs = require("fs").promises;
+const fs = require("fs").promises;//metodo promesas para poder traer la funcion directamente
+
 
 const getAllProducts = async (req, res) => {
   try {
@@ -22,6 +23,7 @@ const postAllProducts = async (req, res) => {
     
     console.log(req.body);
     
+    //se llama la constante "inv" para que lea el archivo luego se especifica cual endpoint es el que esta leyendo y/o editando
     const newProducts =
       {
         id: inv.Productos.length + 1,
