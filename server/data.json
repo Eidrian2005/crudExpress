@@ -1,0 +1,11 @@
+{
+  "Productos": [
+    {
+      "id": 1,
+      "producto": "pera",
+      "descripcion": "fruta dulce recien cosechada",
+      "cantidad": "10",
+      "precio": 7000
+    }
+  ]
+}
